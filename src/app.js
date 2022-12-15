@@ -17,8 +17,6 @@ app.use(
       contentSecurityPolicy: false,
     })
   );
-app.use(express.json());
-app.use(express.urlencoded());
 app.use(express.static(publicDirectory));
 // app.use(express.static(templeteDirectory))
 
